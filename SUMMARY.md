@@ -23,6 +23,7 @@
   * [94. Binary Tree Inorder Traversal](8-2-8-9/94.-binary-tree-inorder-traversal.md)
   * [145. Binary Tree Postorder Traversal](8-2-8-9/untitled.md)
   * [102. Binary Tree Level Order Traversal](8-2-8-9/102.-binary-tree-level-order-traversal-1.md)
+  * [104. Maximum Depth of Binary Tree](8-2-8-9/104.-maximum-depth-of-binary-tree.md)
 * [116. Populating Next Right Pointers in Each Node](116.-populating-next-right-pointers-in-each-node.md)
 * [Untitled](untitled.md)
 
