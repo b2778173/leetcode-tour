@@ -19,9 +19,29 @@ description: >-
 
 1. 以hashMap記住inorder 的index , value
 2. 呼叫helper 放入inorderStartIndex,  inorderEndIndex, preOrderStartIndex, preOrderEndIndex
-3. is, ie, ps , pe隨cur root node變動
+3. is, ie, ps , pe隨cur root node變動, 關係如下
 
-```text
-
+```javascript
+    int[] pre;
+    HashMap<Integer, Integer> memo = new HashMap<>();
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        for(int i = 0 ; i < inorder.length ; i++){
+            memo.put(inorder[i], i);
+        }
+        pre = preorder;
+        
+        return helper(0, inorder.length-1, 0, preorder.length-1);
+    }
+    
+    public TreeNode helper(int is, int ie, int ps, int pe) {
+        if( pe < ps) return null; // 左邊總是先進行, 如果寫 ie < is || pe < ps 會在左邊觸底後就停止, 導致p 沒走完
+        int root = pre[ps];
+        int ri = memo.get(root);
+        
+        TreeNode newRoot = new TreeNode(root); 
+        newRoot.left = helper(is, ri - 1, ps+1, ri-is+ps);
+        newRoot.right = helper(ri+1, ie, ps-is+ri+1, pe);
+        return newRoot;
+    }
 ```
 
