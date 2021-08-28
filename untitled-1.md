@@ -28,7 +28,7 @@ Output: [[""]]
 
 ```java
  public List<List<String>> groupAnagrams(String[] strs) {
-        Map<List<String>> map = new HashMap<>();
+        Map<tring, List<String>> map = new HashMap<>();
         for(String s : strs){
                char[] ca = s.toCharArray();
                Arrays.sort(ca);
@@ -36,12 +36,13 @@ Output: [[""]]
                if(map.containsKey(cas)){
                       map.get(cas).add();
                }else{
-                      List<tring>  group = new  Aray<>();
-                      s.put(cas ,new ArrayList<String>().add(s));
+                      List<tring> group = new ArrayList<>();
+                      group.add(s)
+                      s.put(cas ,group);
                }
         }
-        List<List<String>> ans = new ArrayList<>();
-        for(List<String> e : map.keySet){
+        List<String> ans = new ArrayList<>();
+        for(String e : map.keySet){
                ans.add(map.get(e));
         }
         return ans;       
