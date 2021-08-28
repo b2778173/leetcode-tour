@@ -28,21 +28,21 @@ Output: [[""]]
 
 ```java
  public List<List<String>> groupAnagrams(String[] strs) {
-        Map<tring, List<String>> map = new HashMap<>();
+        Map<String, List<String>> map = new HashMap<>();
         for(String s : strs){
                char[] ca = s.toCharArray();
                Arrays.sort(ca);
                String cas =  String.valueOf(ca);
                if(map.containsKey(cas)){
-                      map.get(cas).add();
+                      map.get(cas).add(s);
                }else{
-                      List<tring> group = new ArrayList<>();
-                      group.add(s)
+                      List<String> group = new ArrayList<>();
+                      group.add(s);
                       s.put(cas ,group);
                }
         }
-        List<String> ans = new ArrayList<>();
-        for(String e : map.keySet){
+        List<List<String>> ans = new ArrayList<>();
+        for(String e : map.keySet()){
                ans.add(map.get(e));
         }
         return ans;       
