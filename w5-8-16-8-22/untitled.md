@@ -1,8 +1,8 @@
 # 36. Valid Sudoku
 
-![](.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
-![red , i index , i th row. Blue , j index, j th col  ](.gitbook/assets/inkedimage_li%20%282%29.jpg)
+![red , i index , i th row. Blue , j index, j th col  ](../.gitbook/assets/inkedimage_li%20%282%29.jpg)
 
 #### example 1.
 
