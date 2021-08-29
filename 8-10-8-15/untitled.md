@@ -19,7 +19,7 @@ description: >-
 
 1. 以hashMap記住inorder 的index , value
 2. 呼叫helper 放入inorderStartIndex,  inorderEndIndex, preOrderStartIndex, preOrderEndIndex
-3. is, ie, ps , pe隨cur root node變動, 關係如下
+3. is, ie, ps , pe隨cur root node變動, 關係如下:
 
 ```javascript
     int[] pre;
