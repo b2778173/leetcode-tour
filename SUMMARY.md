@@ -35,4 +35,7 @@
 * [W6 8/23-8/29](w6-8-23-8-29/README.md)
   * [3. Longest Substring Without Repeating Characters](w6-8-23-8-29/3.-longest-substring-without-repeating-characters.md)
   * [200. Number of Islands](w6-8-23-8-29/200.-number-of-islands.md)
+  * [752. Open the Lock](w6-8-23-8-29/752.-open-the-lock.md)
+* [W7 8/30-9/5](w7-8-30-9-5/README.md)
+  * [133. Clone Graph](w7-8-30-9-5/133.-clone-graph.md)
 
