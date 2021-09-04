@@ -1,4 +1,4 @@
-# 49. Group Anagrams49
+# 49. Group Anagrams
 
 **Example 1:**
 

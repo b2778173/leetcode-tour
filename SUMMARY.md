@@ -30,7 +30,7 @@
   * [112. Path Sum](8-10-8-15/112.-path-sum.md)
   * [116. Populating Next Right Pointers in Each Node](8-10-8-15/116.-populating-next-right-pointers-in-each-node.md)
 * [W5 8/16 - 8/22](w5-8-16-8-22/README.md)
-  * [49. Group Anagrams49](w5-8-16-8-22/untitled-1.md)
+  * [49. Group Anagrams](w5-8-16-8-22/untitled-1.md)
   * [36. Valid Sudoku](w5-8-16-8-22/untitled.md)
 * [W6 8/23-8/29](w6-8-23-8-29/README.md)
   * [3. Longest Substring Without Repeating Characters](w6-8-23-8-29/3.-longest-substring-without-repeating-characters.md)
