@@ -39,4 +39,5 @@
 * [W7 8/30-9/5](w7-8-30-9-5/README.md)
   * [133. Clone Graph](w7-8-30-9-5/133.-clone-graph.md)
   * [150. Evaluate Reverse Polish Notation](w7-8-30-9-5/150.-evaluate-reverse-polish-notation.md)
+  * [279. Perfect Squares](w7-8-30-9-5/279.-perfect-squares.md)
 
