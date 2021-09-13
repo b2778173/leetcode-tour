@@ -42,4 +42,6 @@
   * [150. Evaluate Reverse Polish Notation](w7-8-30-9-5/150.-evaluate-reverse-polish-notation.md)
   * [279. Perfect Squares](w7-8-30-9-5/279.-perfect-squares.md)
   * [394. Decode String](w7-8-30-9-5/394.-decode-string.md)
+* [W8 9/6-9/12](w8-9-6-9-12/README.md)
+  * [98. Validate Binary Search Tree](w8-9-6-9-12/98.-validate-binary-search-tree.md)
 
