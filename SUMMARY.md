@@ -29,6 +29,7 @@
   * [105. Construct Binary Tree from Preorder and Inorder Traversal](8-10-8-15/untitled.md)
   * [112. Path Sum](8-10-8-15/112.-path-sum.md)
   * [116. Populating Next Right Pointers in Each Node](8-10-8-15/116.-populating-next-right-pointers-in-each-node.md)
+  * [297. Serialize and Deserialize Binary Tree](8-10-8-15/297.-serialize-and-deserialize-binary-tree.md)
 * [W5 8/16 - 8/22](w5-8-16-8-22/README.md)
   * [49. Group Anagrams](w5-8-16-8-22/untitled-1.md)
   * [36. Valid Sudoku](w5-8-16-8-22/untitled.md)
